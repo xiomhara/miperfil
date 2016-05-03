@@ -75,9 +75,9 @@ font-size: 20px;      	/* 15 - Se asigna tamaño de letra*/
 }
 
 .Profile-link{
-	text-decoration: none;  	/* 4 - Se elimina subrayado*/
-	padding: 10px 30px;         /* 5 - Le agregamos espacios internos, para poder separar los links de las redes sociales*/
-	margin: 5px 15px;           /* 6 - Se agrega margenes*/
+text-decoration: none;  	/* 4 - Se elimina subrayado*/
+padding: 10px 30px;         /* 5 - Le agregamos espacios internos, para poder separar los links de las redes sociales*/
+margin: 5px 15px;           /* 6 - Se agrega margenes*/
 	background: orange;       /* 7-  Se agrega color de fondo naranja*/
 	border-radius: 2em;        /* 8 - Se redondean la caja de para darle estilo de boton*/
 	color: white;                     /* 9 - Aplicamos color blanco al texto de los hipervinculos de redes sociales*/
@@ -100,9 +100,59 @@ font-size: 20px;      	/* 15 - Se asigna tamaño de letra*/
 .u-containerDefault{
 width: 80%;		   	 /* 7 - Se agrega un ancho*/
     	margin: 0 auto;		/* 8 - Truco - A traves de margenes se centran los modulos*/
-	
-	
+
+		
+}
+/* Work */
+.Work{
+margin-top: 2em;            /* 1 - Agregamos margen entre modulo de trabajos y mi perfil*/
+text-align: center;         /* 5 - Centramos pie de fotos*/
 }
 
+.Work-item{
+display: inline-block;      /* 2 - Permite que las imagenes sean responsive*/
+	margin: 0 20px 20px 0;  /* 3 - Se agrega margenes entre elementos */
 
+}
+
+.Work-imageContainer{
+
+}
+
+.Work-description{
+ margin: 0;                 /* 4 - Elimanos margenes adiciones del contenedor de imagenes*/
+font-size: 16px;           /* 6 - Se agrega tamaño de letra*/
+	color: #515151;            /* 7 - Se agrega color gris*/
+	font-style: italic;        /* 8 - Se agrega estilo de fuente*/
+	text-align: center;                                 /* 10 - centrar los 2 contenedores*/
+
+}
+/* Footer */
+.Footer{
+	               background-image: url('../img/footer.jpg');      /* 1 - Aplicamos fondo*/
+	background-repeat: no-repeat;                       /* 2 - Se indica que la imagen no se repita*/ 
+	background-position: center;                        /* 3 - Se alinea al centro*/
+	background-size: cover;                             /* 4 - Se aplica efecto que la imagen se visualice en todo lo ancho del viewport*/
+text-align: center;                                 /* 10 - centrar los 2 contenedores*/
+padding: 30px 0; 			/* 14 - centrar los 2 contenedores*/
+}
+.Footer-left{
+	        width: 40%;                                        /* 7 - Se aplica un ancho al contenedor izquierdo*/   
+	text-align: center;             /* 8 - Centra texto */
+	padding-right: 20px;	/* 9 - agrega espacio interno */
+	display: inline-block;	/* 11 - Permite que el contenedors sean responsive */
+	vertical-align: top;                  /* 13 - Permite posicionar arriba los contenedores*/
+	
+     
+
+
+}
+.Footer-right{
+     display: inline-block;   		/* 12 - Permite que elcontenedors sean responsive */	     
+}
+.Footer-title{
+       color: white;                                       /* 5 - Aplica color de texto al titulo del modulo*/
+      margin-top: 0;                                      /* 6 - Se elimina margen superior al titulo del modulo*/ 
+
+}
 
